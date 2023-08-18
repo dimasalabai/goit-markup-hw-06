@@ -10,11 +10,41 @@
 	.modal {
 		width: 392px;
 	}
+
+	.mob-menu-address-item:first-child {
+		font-size: 36px;
+	}
+
+	.mob-menu-address + .mob-menu-list-icons {
+		justify-content: start;
+		gap: 56px;
+	}
 }
 
 @media screen and (min-width: 768px) {
 	.container {
 		max-width: 582px;
+	}
+	.header-container {
+		max-width: 766px;
+	}
+
+	.menu-btn {
+		display: none;
+	}
+
+	.header-nav-list {
+		display: flex;
+	}
+
+	.header-logo {
+		margin-right: 120px;
+	}
+
+	.header-address-list {
+		display: flex;
+		flex-direction: column;
+		row-gap: 8px;
 	}
 
 	.solutions {
@@ -111,6 +141,14 @@
 
 	.text {
 		font-weight: 400;
+	}
+	.header-logo {
+		margin-right: 76px;
+	}
+	.header-address-list {
+		display: flex;
+		flex-direction: row;
+		column-gap: 40px;
 	}
 
 	.solutions {
