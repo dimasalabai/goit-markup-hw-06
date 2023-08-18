@@ -1,2 +1,3 @@
-# goit-markup-hw-05
-https://dimasalabai.github.io/goit-markup-hw-05/
+# goit-markup-hw-06
+
+https://dimasalabai.github.io/goit-markup-hw-06/
